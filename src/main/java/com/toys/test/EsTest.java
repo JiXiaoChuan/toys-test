@@ -13,7 +13,7 @@ public class EsTest {
 			System.out.println("开始时间："+System.currentTimeMillis());
 			ElasticsearchService es = new ElasticsearchService();
 			es.init();
-			/*es.updateSetting("log.v1", "1");*/
+			/*es.updateSetting("log.v1", "1");  测试git*/ 
 			/*es.createIndex("test","data","test.v1","iau.mapping");
 			File dir = new File("E:\\label-store");
 			File[] files = dir.listFiles();
