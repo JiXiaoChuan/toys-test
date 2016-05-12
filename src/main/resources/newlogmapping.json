@@ -1,0 +1,140 @@
+{
+"_all": {"enabled": false},
+"properties" : {
+"ActionId": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"ActionType": {
+"type":"integer"
+},
+"ActionPlatform": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"ActionFirstId": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"ActionRequestTime": {
+"type":"long"
+},
+"UserId": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"UserTid": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"AgentType": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"AgentAppId": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"GeoId": {
+"type":"integer"
+},
+"DeviceType": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"DeviceOs": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"DeviceBrand": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"DeviceModel": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"DeviceCarrierId": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"IdAdvertiserId": {
+"type":"integer"
+},
+"IdOrderId": {
+"type":"integer"
+},
+"IdCampaignId": {
+"type":"integer"
+},
+"IdStrategyId": {
+"type":"integer"
+},
+"IdCreativeId": {
+"type":"integer"
+},
+"IdPreferDealId": {
+"type":"integer"
+},
+"IdSCRelId": {
+"type":"integer"
+},
+"IdChannelId": {
+"type":"integer"
+},
+"IdPublisherId": {
+"type":"integer"
+},
+"IdVerticalId": {
+"type":"integer"
+},
+"IdAdUnitId": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"AdUnitWidth": {
+"type":"integer"
+},
+"AdUnitHeight": {
+"type":"integer"
+},
+"AdUnitLocation": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"AdUnitViewType": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"AdUnitType": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"AdUnitFloorPrice": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+},
+"AdUnitContent": {
+"type":"string",
+"store":"no",
+"index":"not_analyzed"
+}
+}
+}
