@@ -1,0 +1,16 @@
+{
+"properties":{
+"userId":{
+"type":"string",
+"index":"not_analyzed"
+},
+"audienceIds":{
+"type":"string",
+"index":"not_analyzed" 
+},
+"timestamp":{
+"type":"long"
+}
+}
+}
+
