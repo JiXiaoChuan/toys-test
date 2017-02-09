@@ -4,6 +4,7 @@ import com.toys.util.StudentUtil;
 
 public class Student {
 
+
 	private static int addId = 0;
 	private int id;
 	private String name;
